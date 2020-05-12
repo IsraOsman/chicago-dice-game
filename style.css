@@ -95,7 +95,7 @@ body {
 .player-current-label {
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 18px;
     color: #222;
 }
 
@@ -139,9 +139,17 @@ i {
 
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
+
 p.same-score { 
     top: 467px;
     text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #EB4D4D;
+    padding: 8px;
+    border-radius: 20px;
+    position:  absolute;
+    top: 250px; 
+    left:32%;
 }
 
 .dice-1 {
