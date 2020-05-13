@@ -21,8 +21,6 @@ document.querySelector(".btn-roll").addEventListener("click", function(){
             document.querySelector(".player-1-panel").classList.toggle("active");
             document.querySelector(".dice-1").style.display = "none";
             document.querySelector(".dice-2").style.display = "none";
-            document.getElementById("current-0").textContent = "0";
-
             activePlayer = 1;
         } else if(clickCount == 11){
             roundCount = 1;
