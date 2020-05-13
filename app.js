@@ -29,7 +29,6 @@ document.querySelector(".btn-roll").addEventListener("click", function(){
             gamePlaying = false;
             document.querySelector(".dice-1").style.display = "none";
             document.querySelector(".dice-2").style.display = "none";
-            document.getElementById("current-1").textContent = "0";
             if(scores[0] > scores[1]){
                 document.querySelector("#name-0").textContent = "WINNER!!";
                 document.querySelector(".player-0-panel").classList.remove("active");
