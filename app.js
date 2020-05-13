@@ -53,7 +53,7 @@ document.querySelector(".btn-roll").addEventListener("click", function(){
 });    
 
 function addScore(){
-    document.getElementById("current-" + activePlayer).textContent = dice1 + dice2;
+    document.getElementById("current-" + activePlayer).textContent = roundCount;
     if(roundScore == roundCount +1){
         scores[activePlayer] += roundScore;
         document.getElementById("score-" + activePlayer).textContent = scores[activePlayer];
